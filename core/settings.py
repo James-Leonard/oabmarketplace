@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-^8@d%%0u38!-i+32qwxpoca%i0ut(@ywt%@7y^&a_h2t$#u819
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*','oabmarketplace-production.up.railway.app']
+ALLOWED_HOSTS = ['*','oabmarketplace-production.up.railway.app', 'https://oabmarketplace-production.up.railway.app']
 CSRF_TRUSTED_ORIGINS = ['https://oabmarketplace-production.up.railway.app',
                         'https://oabmarketplace-production.up.railway.app']
 
