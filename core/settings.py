@@ -26,9 +26,9 @@ SECRET_KEY = 'django-insecure-^8@d%%0u38!-i+32qwxpoca%i0ut(@ywt%@7y^&a_h2t$#u819
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*','oabmarketplace-production.up.railway.app', 'https://oabmarketplace-production.up.railway.app', 'https://saudefund.com/','https://www.saudefund.com/']
+ALLOWED_HOSTS = ['*','oabmarketplace-production.up.railway.app','saudefund.com', 'https://oabmarketplace-production.up.railway.app', 'https://saudefund.com/','https://www.saudefund.com/']
 CSRF_TRUSTED_ORIGINS = ['https://oabmarketplace-production.up.railway.app',
-                        'https://oabmarketplace-production.up.railway.app', 'https://saudefund.com/','https://www.saudefund.com/']
+                        'https://oabmarketplace-production.up.railway.app', 'saudefund.com', 'https://saudefund.com/','https://www.saudefund.com/']
 
 LOGIN_URL = '/login/'
 LOGIN_REDIRECT_URL = '/'
